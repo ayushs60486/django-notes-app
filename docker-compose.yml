@@ -3,4 +3,4 @@ services :
   web :
      image: ayushs60486/notes-app:latest
      ports : 
-         - "8000:8000"
+         - "8000:8000" 
