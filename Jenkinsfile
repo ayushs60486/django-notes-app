@@ -46,6 +46,7 @@ pipeline{
                 echo "this is deploying the code"
                 sh "docker compose down" 
                 sh "docker compose up -d"
+                echo "the code is deployed"
             }
         }
     }
